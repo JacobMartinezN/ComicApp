@@ -13,6 +13,7 @@ import { APP_ROUTING } from './app.routes';
 
 //Servicios
 import { HeroesService } from './services/heroes.service';
+import { HeroeComponent } from './components/heroe/heroe.component';
 
 
 
@@ -24,7 +25,8 @@ import { HeroesService } from './services/heroes.service';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroeComponent
   ],
   imports: [
     BrowserModule,
