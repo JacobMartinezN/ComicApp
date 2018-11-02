@@ -24,4 +24,6 @@ export class BuscadorComponent implements OnInit {
   ngOnInit() {
   }
 
+  
+
 }
